@@ -1,0 +1,242 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf760
+{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww14660\viewh10520\viewkind0
+\deftab720
+\pard\pardeftab720\qc\partightenfactor0
+
+\f0\fs26\fsmilli13333 \cf0 \cb2 \expnd0\expndtw0\kerning0
+ __   __       __  ___                                  \
+/  ` |__) \\ / |__)  |                                   \
+\\__, |  \\  |  |  	  |                                                                                      \
+ __   ___    ___       ___                              \
+/  \\ |__      |  |__| |__                               \
+\\__/ |        |  |  | |___                                                                                      \
+      ___  __   __   __                   __   ___  __  \
+|\\ | |__  /  ` |__) /  \\  |\\/|  /\\  |\\ | /  ` |__  |__) \
+| \\| |___ \\__, |  \\ \\__/  |  | /~~\\ | \\| \\__, |___ |  \\ \
+                                                        \
+////////////////////////////////////////////////////////\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\
+//////////////////////////////////////////////////////////////////////////////\
+//////////////////////////////////////////////////////////////////////////////\
+Written by:\
+	Eric Heidel\
+	Sean Herridge-Berry\
+	Michelle Le\
+	Erica Nordin\
+\
+Implementation Phase:\
+	Version 1.0\
+	Completed on March 13th 2017\
+\
+Program Written for University	of Lethbridge CPSC2720\
+	Practical Software Development\
+	Taught by Dr. John Anvik\
+	Spring 2017\
+\
+//////////////////////////////////////////////////////////////////////////////\
+//////////////////////////////////////////////////////////////////////////////\
+\
+\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\f1\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 The town of Crane is where your original home, but you have grown tired of it. There are strong forces out of your village much more powerful than anything you have seen so far. Undead foes roam the lands and monsters have taken over the world. Today is the day you are going to make history and become a legendary hero.\
+\
+_________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Objective\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+After obtaining your quest you will venture to the Crypt\
+of Necromancer. Defeat the evil enemies that have taken over. Save the prisoned souls and protect the innocent lives from being taken. Be wary, not every person is kind here, it\'92s a tough world out there . \
+\
+_________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Save and Load\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+To 
+\b save
+\b0  your game, type in:	 
+\b save 
+\b0 . \
+To 
+\b load
+\b0  your previously saved game, enter in 	
+\b 0
+\b0   at the starting menu.\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\i \cf0 Save and load screen:
+\i0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 {{\NeXTGraphic UNADJUSTEDNONRAW_thumb_731.jpg \width9260 \height1700
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs28 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Game Over\
+\pard\tx5089\tx5137\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 Once your HP is 0, the game will end. You may reload to your last saved position or start over.\
+\
+_________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 How to play\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Starting the game:\
+	
+\b0 Choose to start a new game or to continue a saved game.\
+
+\b Playing the game:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 	Enter numeric keys to decide upon your actions as directed. \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Menu\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+A menu of options will be displayed to show you allowable actions.
+\b \
+\
+Note: 
+\b0 type in 
+\b 4 
+\b0 for
+\b  
+\b0 help on allowable actions\
+\
+_________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Battling\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+Attacking and its effectiveness is controlled by a magical die that rules \'93world\'94. The Almighty Die will either aid or hinder your actions. No game will be the same.\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Keys:\
+1 : Attack\
+2 : Use item/Equip
+\b0 \
+
+\b 3 : Special Attack\
+4 : Check Enemy\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\i\b0 \cf0 Battle Sequence:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\i0\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width10040 \height2640
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\i\fs28 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\i0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Weapons\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Dagger:
+\b0  \
+	- High Dexterity\
+
+\b Long Sword:
+\b0  \
+	-High Offense\
+
+\b Sword and Shield:\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 	-Balanced Weapon
+\b \
+Bow:\
+	- 
+\b0 Able to attack from afar
+\b \
+	\
+\
+\pard\tx5164\tx5367\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 _________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Attacks:\
+_________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 Normal Attack: Attack value is determined by weapon attribute and die result.\
+Special Attack: Each weapon has a unique special attack , which is more powerful than the normal attack.\
+\
+__________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Shop \
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 __________________________________\
+Obtain new weapons here or restock on potions.\
+\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\i \cf0 Store menu:
+\i0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 {{\NeXTGraphic Pasted Graphic 2.tiff \width5840 \height6420
+}¬}\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs28 \cf0 \
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 \
+__________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+
+\b \cf0 Special Items\
+\pard\tx5435\pardeftab720\ri0\partightenfactor0
+
+\b0 \cf0 __________________________________\
+\pard\pardeftab720\ri0\partightenfactor0
+\cf0 Unique items may be discovered around the world to aid you battles or to continue the game such as keys. Explore the world to discover them.\
+\
+\
+\
+}
